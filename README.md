@@ -12,7 +12,6 @@ Python Script --> Kafka --> ApacheSpark
 
 To deploy this project run the following in order:
 
-Make sure to 
 
 1. zookeeper
 ```bash
