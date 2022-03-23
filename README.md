@@ -24,15 +24,15 @@ To deploy this project run the following in order:
 
 ```
 
-3. Iot Data Python Script
+3. Data Streaming from Twitter Python Script
 ```bash
-  Python Iot_Data.py
+  Python Twitter_Data.py
 ```
 
 4. Spark Script
 
 ```bash
-  spark-submit --packages org.apache.spark:spark-streaming-kafka-0-8_2.11:2.3.0 spark_kafka.py localhost 9092     
+  spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.7 Twitter_Data.py
 
 ```
 ## Authors
