@@ -1,6 +1,6 @@
 # ApacheSpark-w-Python
 
-This project aims to consume the Iot weather data message from a python script through kafka broker and transform the data through ApacheSpark in a live streaming setup.
+This project aims to consume tweets message from a python script through kafka broker and transform the data to get maximum tagged word through ApacheSpark Streaming.
 
 Flow:
 Python Script --> Kafka --> ApacheSpark
