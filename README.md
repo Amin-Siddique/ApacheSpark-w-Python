@@ -26,13 +26,13 @@ To deploy this project run the following in order:
 
 3. Data Streaming from Twitter Python Script
 ```bash
-  Python Twitter_Data.py
+  Python Twitter_to_Kafka.py
 ```
 
 4. Spark Script
 
 ```bash
-  spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.7 Twitter_Data.py
+  spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.7 Spark_kafka_Twitter_Data.py
 
 ```
 ## Authors
