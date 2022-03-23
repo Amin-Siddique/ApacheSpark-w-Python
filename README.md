@@ -32,7 +32,7 @@ To deploy this project run the following in order:
 4. Spark Script
 
 ```bash
-  spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.7 Spark_kafka_Twitter_Data.py
+  spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.7 Spark_kafka_twitter_tags.py
 
 ```
 ## Authors
