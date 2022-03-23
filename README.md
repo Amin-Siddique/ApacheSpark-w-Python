@@ -1,4 +1,4 @@
-# ApacheSpark-w-Python
+# ApacheSpark-Kafka-Python-Streaming
 
 This project aims to consume tweets message from a python script through kafka broker and transform the data to get maximum tagged word through ApacheSpark Streaming.
 
@@ -21,6 +21,13 @@ To deploy this project run the following in order:
 2. Kafka 
 ```bash
   kafka-server-start.bat config/server.properties 
+
+```
+
+To check for messages in kafka (my topic's name is 'awesome'):
+
+```bash
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic awesome
 
 ```
 
